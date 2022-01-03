@@ -1,0 +1,671 @@
+{
+  "result": {
+    "bottomBarItems": [
+      {
+        "id": 610,
+        "title": "درخواست",
+        "iconName": "loan-icon-button-bar-on.png",
+        "page": "/requests",
+        "status": "",
+        "discription": "لطفا در خواست مورد نظر خود را انتخاب کنید",
+        "topbarIconName": "requests-icongraphy.png",
+        "appbarTitle": "درخواست",
+        "child": [
+          {
+            "id": 310,
+            "title": "درخواست پایانه خرید(POS)",
+            "iconName": "Pos-icon.png",
+            "page": "/card-to-card",
+            "status": "",
+            "discription": "درخواست پایانه خرید(POS)",
+            "topbarIconName": "",
+            "appbarTitle": "درخواست پایانه خرید(POS)"
+          },
+          {
+            "id": 311,
+            "title": "درخواست تسهیلات",
+            "iconName": "loan-icon.png",
+            "page": "/request-facility",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "درخواست تسهیلات"
+          },
+          {
+            "id": 312,
+            "title": "درخواست صندوق های خرد محلی",
+            "iconName": "office-icon.png",
+            "page": "/service-bill",
+            "status": "",
+            "discription": "درخواست صندوق های خرد محلی",
+            "topbarIconName": "",
+            "appbarTitle": "درخواست صندوق های خرد محلی"
+          },
+          {
+            "id": 313,
+            "title": "درخواستهای مردمی",
+            "iconName": "people-icon.png",
+            "page": "/branch-list",
+            "status": "",
+            "discription": "درخواستهای مردمی",
+            "topbarIconName": "",
+            "appbarTitle": "درخواستهای مردمی"
+          }
+        ]
+      },
+      {
+        "id": 611,
+        "title": "سپرده",
+        "iconName": "deposit-icon-button-bar-on.png",
+        "page": "/deposits",
+        "status": "",
+        "discription": "",
+        "topbarIconName": "",
+        "appbarTitle": "سپرده",
+        "child": [
+          {
+            "id": 410,
+            "title": "حساب به حساب",
+            "iconName": "Acc-to-Acc-popup.png",
+            "page": "/deposit-to-deposit",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Acc-to-Acc-icongraphy.png",
+            "appbarTitle": "حساب به حساب"
+          },
+          {
+            "id": 411,
+            "title": "پایا",
+            "iconName": "paya-popup.png",
+            "page": "/paya",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "paya-topbar-icon.png",
+            "appbarTitle": "پایا"
+          },
+          {
+            "id": 412,
+            "title": "ساتنا",
+            "iconName": "stana-popup.png",
+            "page": "/satna",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "satna-topbar-icon.png",
+            "appbarTitle": "ساتنا"
+          },
+          {
+            "id": 413,
+            "title": "سپرده مورد علاقه من",
+            "iconName": "my-Fav-Card-Popup.png",
+            "page": "/fav-deposit",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "fav-account-topbar-icon.png",
+            "appbarTitle": "سپرده مورد علاقه من"
+          }
+        ]
+      },
+      {
+        "id": 612,
+        "title": "صندوق کارآفرین امید",
+        "iconName": "Kaapplus-icon.png",
+        "page": "/home",
+        "status": "",
+        "discription": "",
+        "topbarIconName": "",
+        "appbarTitle": "",
+        "child": [
+          {
+            "id": 101,
+            "title": "احراز هویت",
+            "iconName": "Register-top-deck.png",
+            "page": "/auth",
+            "status": "0",
+            "discription": "",
+            "isTop": true,
+            "topbarIconName": "",
+            "appbarTitle": "احراز هویت"
+          },
+          {
+            "id": 102,
+            "title": "پایانه خرید",
+            "iconName": "pos-top-deck.png",
+            "page": "/pos",
+            "status": "1",
+            "isTop": true,
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": ""
+          },
+          {
+            "id": 103,
+            "title": "تسهیلات",
+            "iconName": "loan-top-deck.png",
+            "page": "/facility",
+            "status": "0",
+            "isTop": true,
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": ""
+          },
+          {
+            "id": 104,
+            "title": "بوم گردی",
+            "iconName": "Ecotourism-top-deck.png",
+            "page": "/ecotourism",
+            "status": "0",
+            "isTop": true,
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "بوم گردی"
+          },
+          {
+            "id": 10,
+            "title": "کارت به کارت",
+            "iconName": "card-to-card-icon.png",
+            "page": "/card-to-card",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Card-to-Card-icongraphy",
+            "appbarTitle": "کارت به کارت"
+          },
+          {
+            "id": 11,
+            "title": "نیکوکاری",
+            "iconName": "Charity-icon.png",
+            "page": "/charity",
+            "status": "",
+            "discription": "مبلغ را وارد نمائید و از لیست زیر خیریه مورد نظر خود را انتخاب کنید",
+            "topbarIconName": "Charity-icongraphy.png",
+            "appbarTitle": "نیکوکاری"
+          },
+          {
+            "id": 12,
+            "title": "قبوض",
+            "iconName": "Bills-icon.png",
+            "page": "/bill",
+            "status": "",
+            "discription": "برای پرداخت قبوض از گزینه اسکن استفاده کنید تا درگیر وارد کردن اطلاعات نباشید",
+            "topbarIconName": "Bills-icongraphy.png",
+            "appbarTitle": "قبوض",
+            "child": [
+              {
+                "id": 4,
+                "title": "تلفن",
+                "iconName": "iconic-phone-off.png",
+                "page": "/phone-bill",
+                "status": "",
+                "discription": "شماره تلفن همراه خود را وارد کنید و درصورت نمایش گزینه ، یک مورد را انتخاب نمایید",
+				"isTop":true,
+                "topbarIconName": "Group 681.png",
+                "appbarTitle": "قبض تلفن ثابت"
+              },
+			 
+			  {
+                "id": 5,
+                "title": "برق",
+                "iconName": "iconic-ACDC-off.png",
+                "page": "/power-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض خود را وارد کنید",
+                "topbarIconName": "Group 682.png",
+                "appbarTitle": "قبض برق"
+              },
+			  {
+                "id": 6,
+                "title": "گاز",
+                "iconName": "iconic-fire-on.png",
+                "page": "/service-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض و شناسه پرداخت خود را وارد کنید",
+                "topbarIconName": "iconic-fire-on-1.png",
+                "appbarTitle": "قبض گاز"
+              },  {
+                "id": 7,
+                "title": "آب",
+                "iconName": "iconic-water-off.png",
+                "page": "/service-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض و شناسه پرداخت خود را وارد کنید",
+                "topbarIconName": "iconic-water-on.png",
+                "appbarTitle": "قبض آب"
+              },
+			  {
+                "id": 8,
+                "title": "موبایل",
+                "iconName": "iconic-water-mobile.png",
+                "page": "/mobile-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شماره تلفن همراه خود را وارد کنید و درصورت نمایش گزینه ، یک مورد را انتخاب نمایید",
+                "topbarIconName": "Group 730.png",
+                "appbarTitle": "قبض موبایل"
+              },
+			   {
+                "id": 9,
+                "title": "QR کد",
+                "iconName": "Qr-Code-on.png.png",
+                "page": "/mobile-bill",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "Qr-Code-on.png",
+                "appbarTitle": "QR کد"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "title": "شعب",
+            "iconName": "Locations-icon.png",
+            "page": "/branch-list",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "branch-topbar-icon.png",
+            "appbarTitle": "شعب"
+          },
+          {
+            "id": 14,
+            "title": "شارژ",
+            "iconName": "charge-icon.png",
+            "page": "/phone-charge",
+            "status": "",
+            "discription": "شماره موبایلی که میخواهید برای آن شارژ تهیّه کنید را وارد نمایید، و یا با زدن دکمه مخاطبان از لیست مخاطبین یک شماره را انتخاب کنید",
+            "topbarIconName": "charging-icongraphy.png",
+            "appbarTitle": "شارژ",
+			"child": [
+              {
+                "id": 40,
+                "title": "همراه اول",
+                "iconName": "iconic-phone-on.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "hamrah1-off-icon.png",
+                "appbarTitle": "قبض تلفن همراه"
+              },
+              {
+                "id": 55,
+                "title": "ایرانسل",
+                "iconName": "Irancell-on-icon.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "Irancell-off-icon.png",
+                "appbarTitle": ""
+              },
+              {
+                "id": 66,
+                "title": "رایتل",
+                "iconName": "rightel-on-icon.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "rightel-off-icon.png",
+                "appbarTitle": ""
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "title": "افتتاح سپرده",
+            "iconName": "Register-icon.png",
+            "page": "/open-deposit",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "open-deposite-topbar-icon.png",
+            "appbarTitle": "افتتاح سپرده"
+          }
+        ]
+      },
+      {
+        "id": 613,
+        "title": "کارت",
+        "iconName": "card-icon-button-bar-on.png",
+        "page": "/cards",
+        "status": "",
+        "discription": "",
+        "topbarIconName": "Group 678.png",
+        "appbarTitle": "کارت",
+        "child": [
+          {
+            "id": 510,
+            "title": "کارت به کارت",
+            "iconName": "Card-to-Card-Popup.png",
+            "page": "/card-to-card",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Card-to-Card-icongraphy.png",
+            "appbarTitle": "کارت به کارت",
+            "child": [
+              {
+                "id": 1510,
+                "title": "بانک سینا",
+                "iconName": "bank-Sina.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              },
+              {
+                "id": 1510,
+                "title": "بانک ملت",
+                "iconName": "bank-mellat.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              },
+              {
+                "id": 1510,
+                "title": "بانک توسعه تعاون",
+                "iconName": "bank-T.tavoon.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              },
+              {
+                "id": 1510,
+                "title": "بانک ملی",
+                "iconName": "bank-melli.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              },
+              {
+                "id": 1510,
+                "title": "بانک کارآفرین",
+                "iconName": "bank-karafarin.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              },
+              {
+                "id": 1510,
+                "title": "بانک شهر",
+                "iconName": "bank-shahr.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "",
+                "appbarTitle": ""
+              }
+            ]
+          },
+          {
+            "id": 511,
+            "title": "فعال سازی رمز پویا",
+            "iconName": "Sicurity-code-Popup.png",
+            "page": "/activation-password",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "activation-password.png",
+            "appbarTitle": "فعال سازی رمز پویا"
+          },
+          {
+            "id": 512,
+            "title": "مسدود سازی کارت",
+            "iconName": "Ban-Card-Popup.png",
+            "page": "/hot-card",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "hot-card-topbar-icon.png",
+            "appbarTitle": "مسدود سازی کارت"
+          },
+          {
+            "id": 513,
+            "title": "تاریخچه",
+            "iconName": "History-Popup.png",
+            "page": "/card-history",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "history-topbar-icon.png",
+            "appbarTitle": "تاریخچه"
+          }
+        ]
+      },
+      {
+        "id": 613,
+        "title": "سایر",
+        "iconName": "All-icon-button-bar-on.png",
+        "page": "/others",
+        "status": "",
+        "discription": "",
+        "topbarIconName": "",
+        "appbarTitle": "سایر",
+        "child": [
+          {
+            "id": 10,
+            "title": "کارت به کارت",
+            "iconName": "card-to-card-icon.png",
+            "page": "/card-to-card",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Card-to-Card-icongraphy",
+            "appbarTitle": "کارت به کارت"
+          },
+          {
+            "id": 11,
+            "title": "نیکوکاری",
+            "iconName": "Charity-icon.png",
+            "page": "/charity",
+            "status": "",
+            "discription": "مبلغ را وارد نمائید و از لیست زیر خیریه مورد نظر خود را انتخاب کنید",
+            "topbarIconName": "Charity-icongraphy.png",
+            "appbarTitle": "نیکوکاری"
+          },
+          {
+            "id": 12,
+            "title": "قبوض",
+            "iconName": "Bills-icon.png",
+            "page": "/bill",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Bills-icongraphy.png",
+            "appbarTitle": "قبوض",
+             "child": [
+              {
+                "id": 4,
+                "title": "تلفن",
+                "iconName": "iconic-phone-off.png",
+                "page": "/phone-bill",
+                "status": "",
+                "discription": "شماره تلفن همراه خود را وارد کنید و درصورت نمایش گزینه ، یک مورد را انتخاب نمایید",
+				"isTop":true,
+                "topbarIconName": "Group 681.png",
+                "appbarTitle": "قبض تلفن ثابت"
+              },
+			 
+			  {
+                "id": 5,
+                "title": "برق",
+                "iconName": "iconic-ACDC-off.png",
+                "page": "/power-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض خود را وارد کنید",
+                "topbarIconName": "Group 682.png",
+                "appbarTitle": "قبض برق"
+              },
+			  {
+                "id": 6,
+                "title": "گاز",
+                "iconName": "iconic-fire-on.png",
+                "page": "/service-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض و شناسه پرداخت خود را وارد کنید",
+                "topbarIconName": "iconic-fire-on-1.png",
+                "appbarTitle": "قبض گاز"
+              },  {
+                "id": 7,
+                "title": "آب",
+                "iconName": "iconic-water-off.png",
+                "page": "/service-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شناسه قبض و شناسه پرداخت خود را وارد کنید",
+                "topbarIconName": "iconic-water-on.png",
+                "appbarTitle": "قبض آب"
+              },
+			  {
+                "id": 8,
+                "title": "موبایل",
+                "iconName": "iconic-water-mobile.png",
+                "page": "/mobile-bill",
+                "status": "",
+				"isTop":true,
+                "discription": "شماره تلفن همراه خود را وارد کنید و درصورت نمایش گزینه ، یک مورد را انتخاب نمایید",
+                "topbarIconName": "Group 730.png",
+                "appbarTitle": "قبض موبایل"
+              },
+			   {
+                "id": 9,
+                "title": "QR کد",
+                "iconName": "Qr-Code-on.png.png",
+                "page": "/qr-code",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "Qr-Code-on.png",
+                "appbarTitle": "QR کد"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "title": "شعب",
+            "iconName": "Locations-icon.png",
+            "page": "/branch-list",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "branch-topbar-icon.png",
+            "appbarTitle": "شعب"
+          },
+          {
+            "id": 14,
+            "title": "شارژ",
+            "iconName": "charge-icon.png",
+            "page": "/phone-charge",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "charging-icongraphy.png",
+            "appbarTitle": "شارژ",
+            "child": [
+              {
+                "id": 40,
+                "title": "همراه اول",
+                "iconName": "iconic-phone-on.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "hamrah1-off-icon.png",
+                "appbarTitle": "قبض تلفن همراه"
+              },
+              {
+                "id": 55,
+                "title": "ایرانسل",
+                "iconName": "Irancell-on-icon.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "Irancell-off-icon.png",
+                "appbarTitle": ""
+              },
+              {
+                "id": 66,
+                "title": "رایتل",
+                "iconName": "rightel-on-icon.png",
+                "page": "#",
+                "status": "",
+                "discription": "",
+                "topbarIconName": "rightel-off-icon.png",
+                "appbarTitle": ""
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "title": "افتتاح سپرده",
+            "iconName": "Register-icon.png",
+            "page": "/open-deposit",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "open-deposite-topbar-icon.png",
+            "appbarTitle": "افتتاح سپرده"
+          },
+          {
+            "id": 16,
+            "title": "مشاهده طرح ها",
+            "iconName": "Plans-icon.png",
+            "page": "/view-plans",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "مشاهده طرح ها"
+          },
+          {
+            "id": 17,
+            "title": "کارتهای مقصد",
+            "iconName": "destnation-card.png",
+            "page": "/destination-cards",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "کارتهای مقصد"
+          },
+          {
+            "id": 18,
+            "title": "گزارشات",
+            "iconName": "Reports-icon.png",
+            "page": "/reports",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "گزارشات"
+          },
+          {
+            "id": 19,
+            "title": "اقساط",
+            "iconName": "Payments-icon.png",
+            "page": "/payment",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "Payment-icongraphy.png",
+            "appbarTitle": "اقساط"
+          },
+          {
+            "id": 20,
+            "title": "باشگاه مشتریان",
+            "iconName": "Customers-club-icon.png",
+            "page": "/club",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "باشگاه مشتریان"
+          },
+          {
+            "id": 21,
+            "title": "ارزیابی کارکنان",
+            "iconName": "Assessment-employee-icon.png",
+            "page": "/survey-personal",
+            "status": "",
+            "discription": "",
+            "topbarIconName": "",
+            "appbarTitle": "ارزیابی کارکنان"
+          }
+        ]
+      }
+    ]
+  },
+  "server_error": []
+}
